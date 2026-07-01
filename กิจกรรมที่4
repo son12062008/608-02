@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <title>ฟอร์มรับสมัคร</title>
+</head>
+<body>
+
+    <h2>ฟอร์มรับสมัคร</h2>
+
+    <form action="result.html" method="post" target="_blank">
+
+        <label>1. ชื่อ:</label><br>
+        <input type="text" name="firstname" required><br><br>
+
+        <label>2. นามสกุล:</label><br>
+        <input type="text" name="lastname" required><br><br>
+
+        <label>3. ที่อยู่</label><br><br>
+
+        เลขที่:<br>
+        <input type="text" name="house_no"><br><br>
+
+        ถนน:<br>
+        <input type="text" name="road"><br><br>
+
+        ซอย:<br>
+        <input type="text" name="soi"><br><br>
+
+        ตำบล:<br>
+        <input type="text" name="subdistrict"><br><br>
+
+        อำเภอ:<br>
+        <input type="text" name="district"><br><br>
+
+        จังหวัด:<br>
+        <input type="text" name="province"><br><br>
+
+        รหัสไปรษณีย์:<br>
+        <input type="text" name="zipcode" maxlength="5"><br><br>
+
+        <label>4. เบอร์โทรศัพท์:</label><br>
+        <input type="tel" name="phone"><br><br>
+
+        <label>5. E-mail:</label><br>
+        <input type="email" name="email"><br><br>
+
+        <label>6. Username:</label><br>
+        <input type="text" name="username" required><br><br>
+
+        <label>7. Password:</label><br>
+        <input type="password" name="password" required><br><br>
+
+        <input type="submit" value="สมัคร">
+        <input type="reset" value="ล้างข้อมูล">
+
+    </form>
+
+</body>
+</html>
