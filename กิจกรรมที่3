@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+int main() {
+    float c, f;
+    int i = 1;
+
+    // แปลง Celsius เป็น Fahrenheit ด้วย While Loop
+    while(i <= 5) {
+        printf("Enter Celsius: ");
+        scanf("%f", &c);
+
+        f = (c * 1.8) + 32;
+
+        printf("Fahrenheit = %.2f\n\n", f);
+        i++;
+    }
+
+    // แสดงเลขคู่ 2 ถึง 20 ด้วย Do While
+    int num = 2;
+
+    printf("Even numbers from 2 to 20:\n");
+
+    do {
+        printf("%d ", num);
+        num += 2;
+    } while(num <= 20);
+
+    return 0;
+}
