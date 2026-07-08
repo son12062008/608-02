@@ -1,29 +1,25 @@
-#include <stdio.h>
+<?php
 
-int main() {
-    float c, f;
-    int i = 1;
+// แปลง Celsius เป็น Fahrenheit 5 ครั้ง
+for ($i = 1; $i <= 5; $i++) {
 
-    // แปลง Celsius เป็น Fahrenheit ด้วย While Loop
-    while(i <= 5) {
-        printf("Enter Celsius: ");
-        scanf("%f", &c);
+    echo "Enter Celsius: ";
 
-        f = (c * 1.8) + 32;
+    $c = trim(fgets(STDIN));
 
-        printf("Fahrenheit = %.2f\n\n", f);
-        i++;
-    }
+    $f = ($c * 1.8) + 32;
 
-    // แสดงเลขคู่ 2 ถึง 20 ด้วย Do While
-    int num = 2;
-
-    printf("Even numbers from 2 to 20:\n");
-
-    do {
-        printf("%d ", num);
-        num += 2;
-    } while(num <= 20);
-
-    return 0;
+    echo "Fahrenheit = " . number_format($f, 2) . "\n\n";
 }
+
+// แสดงเลขคู่ 2 ถึง 20 ด้วย Do While
+$num = 2;
+
+echo "Even numbers from 2 to 20:\n";
+
+do {
+    echo $num . " ";
+    $num += 2;
+} while ($num <= 20);
+
+?>
