@@ -47,7 +47,7 @@ if (!$conn->connect_error) {
         </div>
         <div>
             <!-- ปุ่ม View Source ลิงก์ไปยัง GitHub แท็บใหม่ -->
-            <a href="https://github.com/YOUR_USERNAME/YOUR_REPOSITORY" target="_blank" class="btn btn-outline-dark">
+            <a https://github.com/son12062008/608-02/blob/main/task2.php">
                 View Source on GitHub
             </a>
         </div>
